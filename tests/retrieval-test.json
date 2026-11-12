@@ -1,0 +1,30 @@
+{
+  "schema_version": 1,
+  "kind": "bbmi-ncaaf-retrieval-test",
+  "environment": "retrieval-test",
+  "status": "test_only",
+  "publication_id": "retrieval-test-ncaaf-7a6c9457902520fa4f19c437d9b089ae38270ae2cbe1a7fade8e2c32f94dbdac",
+  "week_of": "2026-11-10",
+  "as_of": "2026-11-11",
+  "generated_at": "2026-11-12T03:39:37.550Z",
+  "sources": {
+    "rankings": {
+      "sha256_lf": "6a5da6106b89e0f508ea555fe3f4074e832e12328ab6351eecd21bfe03ec4b05",
+      "generated_at": "2026-11-11T15:13:15Z"
+    },
+    "season_sim": {
+      "sha256_lf": "a8519e649ae994fc771e7ef6f351a1f1f6404f0736378b3e2a9459784095c46c",
+      "generated_at": "2026-11-11T15:13:37Z"
+    }
+  },
+  "sp_plus": {
+    "verification_status": "not_certified"
+  },
+  "completion": {
+    "status": "not_certified",
+    "reason": "application_not_deployed"
+  },
+  "certifies_production": false,
+  "authorizes_social_post": false,
+  "purpose": "Test unauthenticated GitHub and ChatGPT metadata retrieval only; not a completed model publication."
+}

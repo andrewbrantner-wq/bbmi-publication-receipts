@@ -17,7 +17,7 @@ Valid until: not valid
   "schema_version": 1,
   "kind": "bbmi-ncaaf-publication",
   "status": "revoked",
-  "checked_at": "2026-11-17T19:20:26.900Z",
+  "checked_at": "2026-11-17T19:20:40.664Z",
   "reason": "verification_failed"
 }
 ```

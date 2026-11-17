@@ -1,11 +1,64 @@
-# bbmi-publication-receipts
+# BBMI NCAAF publication receipt
 
-Public BBMI publication verification metadata.
+Status: pending
 
-This repository holds verification metadata only: hashes, timestamps, verification status and publication identifiers. It contains no model inputs, projections, private paths, credentials or executable workflows.
+Tuesday: 2026-11-17
 
-## Current contents
+Publication ID: ncaaf-v1-f7ce03015f7c3219c53442cbc0f040ebaa2c5d6f4dd0cbab2e6218525ca33d06
 
-`tests/retrieval-test.json` is a **retrieval test only**. It checks that the metadata can be read publicly without credentials. It is marked `test_only` and `not_certified`, certifies no production data, and authorizes no exhibit or social post. Its ID uses the `retrieval-test-ncaaf-` namespace, which the production receipt reader rejects.
+Verified live: not verified
 
-No production receipt (`current.json`, `latest.json`) has been published yet.
+Valid until: 2026-11-17T16:45:11.000Z
+
+## Verification metadata
+
+```json
+{
+  "schema_version": 1,
+  "kind": "bbmi-ncaaf-live-receipt",
+  "status": "pending",
+  "publication_id": "ncaaf-v1-f7ce03015f7c3219c53442cbc0f040ebaa2c5d6f4dd0cbab2e6218525ca33d06",
+  "week_of": "2026-11-17",
+  "as_of": "2026-11-17",
+  "checked_at": "2026-11-17T16:25:11.000Z",
+  "valid_until": "2026-11-17T16:45:11.000Z",
+  "live_verified_at": null,
+  "sources": {
+    "rankings": {
+      "sha256_lf": "bec902e8e37b6c1ae4681e3d84e7988fd2a83ceb5ab42ca98b51a4b8ab72348a",
+      "generated_at": "2026-11-17T15:59:27Z"
+    },
+    "season_sim": {
+      "sha256_lf": "4587047ecd8766f034521b15957a40910f6223490f4c980f06940207a2c10392",
+      "generated_at": "2026-11-17T15:59:56Z"
+    },
+    "identities_sha256_lf": "bca7730e98d139cf0f4acf1f77f14c4684daab1171372daf9380cf1554b1675e"
+  },
+  "sp_plus": {
+    "checked_at": "2026-11-17T16:25:11Z",
+    "root_table_sha256": "bac241c50e58282791f2309737edfb99fe480623d21d478a57b87f9300e2479c",
+    "latest_table_sha256": "bac241c50e58282791f2309737edfb99fe480623d21d478a57b87f9300e2479c",
+    "latest_commit": "23864b82e15e2981e7dd1de45e78729f3cbdf408",
+    "rerun_status": "not_required",
+    "reason": "unchanged_values"
+  },
+  "completion": {
+    "status": "pending",
+    "run_started_at": "2026-11-17T15:59:23Z",
+    "completed_at": "2026-11-17T16:00:00Z",
+    "rankings": "passed",
+    "season_sim": "passed",
+    "tripwire": "passed"
+  },
+  "source_commit": "23864b82e15e2981e7dd1de45e78729f3cbdf408",
+  "model_version": "999ee1f3ddd283826528392b03ac424eb0aa086c3092ec00813d7770d4f8ce1e",
+  "season_week": 12,
+  "deployment": null,
+  "revalidated_at": null,
+  "exhibits_verified_at": null,
+  "html_url": "https://www.bbmisports.com/ncaaf-exhibits?publication=ncaaf-v1-f7ce03015f7c3219c53442cbc0f040ebaa2c5d6f4dd0cbab2e6218525ca33d06&week=2026-11-17",
+  "json_url": "https://www.bbmisports.com/ncaaf-exhibits.json?publication=ncaaf-v1-f7ce03015f7c3219c53442cbc0f040ebaa2c5d6f4dd0cbab2e6218525ca33d06&week=2026-11-17"
+}
+```
+
+Always retrieve latest.json and check its status, week, ID and expiry. This README alone is not a freshness guarantee.

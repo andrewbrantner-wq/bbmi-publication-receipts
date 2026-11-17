@@ -1,0 +1,304 @@
+{
+  "kind": "bbmi-ncaaf-exhibit-dataset",
+  "schema_version": 1,
+  "publication_id": "ncaaf-v1-f7ce03015f7c3219c53442cbc0f040ebaa2c5d6f4dd0cbab2e6218525ca33d06",
+  "generated_at": "2026-11-17T16:00:00Z",
+  "as_of": "2026-11-17",
+  "weekly_pipeline": {
+    "week_of": "2026-11-17",
+    "season_week": 12,
+    "timezone": "America/Chicago",
+    "status": "complete",
+    "sp_plus": {
+      "root_table_sha256": "bac241c50e58282791f2309737edfb99fe480623d21d478a57b87f9300e2479c",
+      "latest_table_sha256": "bac241c50e58282791f2309737edfb99fe480623d21d478a57b87f9300e2479c",
+      "latest_commit": "23864b82e15e2981e7dd1de45e78729f3cbdf408",
+      "rerun_status": "not_required",
+      "reason": "unchanged_values"
+    }
+  },
+  "source_commit": "23864b82e15e2981e7dd1de45e78729f3cbdf408",
+  "model_version": "999ee1f3ddd283826528392b03ac424eb0aa086c3092ec00813d7770d4f8ce1e",
+  "sources": {
+    "rankings": {
+      "sha256_lf": "bec902e8e37b6c1ae4681e3d84e7988fd2a83ceb5ab42ca98b51a4b8ab72348a",
+      "generated_at": "2026-11-17T15:59:27Z"
+    },
+    "season_sim": {
+      "sha256_lf": "4587047ecd8766f034521b15957a40910f6223490f4c980f06940207a2c10392",
+      "generated_at": "2026-11-17T15:59:56Z"
+    },
+    "identities_sha256_lf": "bca7730e98d139cf0f4acf1f77f14c4684daab1171372daf9380cf1554b1675e"
+  },
+  "units": {
+    "probabilities": "percent_0_to_100",
+    "bbmi_score": "win_rate_0_to_1",
+    "edges": "points"
+  },
+  "rankings": [
+    {
+      "rank": 1,
+      "team_id": "bbmi:ncaaf:0121",
+      "team": "UCLA",
+      "record": "10-0",
+      "bbmi_score": 0.9652,
+      "bbmi_score_display": ".965",
+      "make_cfp_pct": 99.2
+    },
+    {
+      "rank": 2,
+      "team_id": "bbmi:ncaaf:0126",
+      "team": "Utah",
+      "record": "10-0",
+      "bbmi_score": 0.9642,
+      "bbmi_score_display": ".964",
+      "make_cfp_pct": 100
+    },
+    {
+      "rank": 3,
+      "team_id": "bbmi:ncaaf:0063",
+      "team": "Miami (FL)",
+      "record": "9-1",
+      "bbmi_score": 0.9619,
+      "bbmi_score_display": ".962",
+      "make_cfp_pct": 100
+    },
+    {
+      "rank": 4,
+      "team_id": "bbmi:ncaaf:0036",
+      "team": "Georgia",
+      "record": "9-1",
+      "bbmi_score": 0.9182,
+      "bbmi_score_display": ".918",
+      "make_cfp_pct": 100
+    },
+    {
+      "rank": 5,
+      "team_id": "bbmi:ncaaf:0131",
+      "team": "Wake Forest",
+      "record": "9-1",
+      "bbmi_score": 0.916,
+      "bbmi_score_display": ".916",
+      "make_cfp_pct": 93.2
+    },
+    {
+      "rank": 6,
+      "team_id": "bbmi:ncaaf:0003",
+      "team": "Alabama",
+      "record": "8-2",
+      "bbmi_score": 0.9135,
+      "bbmi_score_display": ".913",
+      "make_cfp_pct": 91.9
+    },
+    {
+      "rank": 7,
+      "team_id": "bbmi:ncaaf:0083",
+      "team": "Notre Dame",
+      "record": "9-1",
+      "bbmi_score": 0.9107,
+      "bbmi_score_display": ".911",
+      "make_cfp_pct": 99.9
+    },
+    {
+      "rank": 8,
+      "team_id": "bbmi:ncaaf:0111",
+      "team": "Texas",
+      "record": "8-2",
+      "bbmi_score": 0.9092,
+      "bbmi_score_display": ".909",
+      "make_cfp_pct": 93.1
+    },
+    {
+      "rank": 9,
+      "team_id": "bbmi:ncaaf:0043",
+      "team": "Indiana",
+      "record": "9-1",
+      "bbmi_score": 0.8935,
+      "bbmi_score_display": ".893",
+      "make_cfp_pct": 96.9
+    },
+    {
+      "rank": 10,
+      "team_id": "bbmi:ncaaf:0014",
+      "team": "Boise State",
+      "record": "9-1",
+      "bbmi_score": 0.8766,
+      "bbmi_score_display": ".877",
+      "make_cfp_pct": 10.7
+    },
+    {
+      "rank": 11,
+      "team_id": "bbmi:ncaaf:0114",
+      "team": "Texas Tech",
+      "record": "9-1",
+      "bbmi_score": 0.868,
+      "bbmi_score_display": ".868",
+      "make_cfp_pct": 79.9
+    },
+    {
+      "rank": 12,
+      "team_id": "bbmi:ncaaf:0090",
+      "team": "Oregon",
+      "record": "7-3",
+      "bbmi_score": 0.8408,
+      "bbmi_score_display": ".841",
+      "make_cfp_pct": 4.6
+    },
+    {
+      "rank": 13,
+      "team_id": "bbmi:ncaaf:0011",
+      "team": "BYU",
+      "record": "8-2",
+      "bbmi_score": 0.8373,
+      "bbmi_score_display": ".837",
+      "make_cfp_pct": 63.7
+    },
+    {
+      "rank": 14,
+      "team_id": "bbmi:ncaaf:0110",
+      "team": "Tennessee",
+      "record": "8-2",
+      "bbmi_score": 0.8323,
+      "bbmi_score_display": ".832",
+      "make_cfp_pct": 43.8
+    },
+    {
+      "rank": 15,
+      "team_id": "bbmi:ncaaf:0085",
+      "team": "Ohio State",
+      "record": "7-3",
+      "bbmi_score": 0.8228,
+      "bbmi_score_display": ".823",
+      "make_cfp_pct": 10.3
+    }
+  ],
+  "playoff_teams": [
+    {
+      "seed": 1,
+      "team_id": "bbmi:ncaaf:0126",
+      "team": "Utah",
+      "title_pct": 4.2
+    },
+    {
+      "seed": 2,
+      "team_id": "bbmi:ncaaf:0121",
+      "team": "UCLA",
+      "title_pct": 7.3
+    },
+    {
+      "seed": 3,
+      "team_id": "bbmi:ncaaf:0036",
+      "team": "Georgia",
+      "title_pct": 45.2
+    },
+    {
+      "seed": 4,
+      "team_id": "bbmi:ncaaf:0063",
+      "team": "Miami (FL)",
+      "title_pct": 8.9
+    },
+    {
+      "seed": 5,
+      "team_id": "bbmi:ncaaf:0083",
+      "team": "Notre Dame",
+      "title_pct": 14
+    },
+    {
+      "seed": 6,
+      "team_id": "bbmi:ncaaf:0043",
+      "team": "Indiana",
+      "title_pct": 4.4
+    },
+    {
+      "seed": 7,
+      "team_id": "bbmi:ncaaf:0111",
+      "team": "Texas",
+      "title_pct": 1.5
+    },
+    {
+      "seed": 8,
+      "team_id": "bbmi:ncaaf:0131",
+      "team": "Wake Forest",
+      "title_pct": 8.1
+    },
+    {
+      "seed": 9,
+      "team_id": "bbmi:ncaaf:0003",
+      "team": "Alabama",
+      "title_pct": 2.8
+    },
+    {
+      "seed": 10,
+      "team_id": "bbmi:ncaaf:0114",
+      "team": "Texas Tech",
+      "title_pct": 0.6
+    },
+    {
+      "seed": 11,
+      "team_id": "bbmi:ncaaf:0011",
+      "team": "BYU",
+      "title_pct": 0.3
+    },
+    {
+      "seed": 12,
+      "team_id": "bbmi:ncaaf:0054",
+      "team": "Liberty",
+      "title_pct": 0.6
+    }
+  ],
+  "first_round": [
+    {
+      "away": {
+        "seed": 12,
+        "team_id": "bbmi:ncaaf:0054",
+        "team": "Liberty"
+      },
+      "home": {
+        "seed": 5,
+        "team_id": "bbmi:ncaaf:0083",
+        "team": "Notre Dame"
+      },
+      "favored_team_id": "bbmi:ncaaf:0083"
+    },
+    {
+      "away": {
+        "seed": 9,
+        "team_id": "bbmi:ncaaf:0003",
+        "team": "Alabama"
+      },
+      "home": {
+        "seed": 8,
+        "team_id": "bbmi:ncaaf:0131",
+        "team": "Wake Forest"
+      },
+      "favored_team_id": "bbmi:ncaaf:0131"
+    },
+    {
+      "away": {
+        "seed": 11,
+        "team_id": "bbmi:ncaaf:0011",
+        "team": "BYU"
+      },
+      "home": {
+        "seed": 6,
+        "team_id": "bbmi:ncaaf:0043",
+        "team": "Indiana"
+      },
+      "favored_team_id": "bbmi:ncaaf:0043"
+    },
+    {
+      "away": {
+        "seed": 10,
+        "team_id": "bbmi:ncaaf:0114",
+        "team": "Texas Tech"
+      },
+      "home": {
+        "seed": 7,
+        "team_id": "bbmi:ncaaf:0111",
+        "team": "Texas"
+      },
+      "favored_team_id": "bbmi:ncaaf:0111"
+    }
+  ],
+  "validity": "Valid only while the receipt latest.json is ready, unexpired, for the expected Tuesday, and names this file path and its SHA-256."
+}

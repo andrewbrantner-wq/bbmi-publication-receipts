@@ -1,12 +1,12 @@
 # BBMI NCAAF publication receipt
 
-Status: pending
+Status: ready
 
 Tuesday: 2026-11-24
 
 Publication ID: ncaaf-v1-d42f63011dc2816ec7ed01e02ac0bb595f11e09f47a01ba222e6d9e1f4a441d5
 
-Verified live: not verified
+Verified live: 2026-11-24T16:25:31.085Z
 
 Valid until: 2026-11-24T16:55:25.000Z
 
@@ -16,13 +16,13 @@ Valid until: 2026-11-24T16:55:25.000Z
 {
   "schema_version": 1,
   "kind": "bbmi-ncaaf-live-receipt",
-  "status": "pending",
+  "status": "ready",
   "publication_id": "ncaaf-v1-d42f63011dc2816ec7ed01e02ac0bb595f11e09f47a01ba222e6d9e1f4a441d5",
   "week_of": "2026-11-24",
   "as_of": "2026-11-24",
   "checked_at": "2026-11-24T16:25:25.000Z",
   "valid_until": "2026-11-24T16:55:25.000Z",
-  "live_verified_at": null,
+  "live_verified_at": "2026-11-24T16:25:31.085Z",
   "sources": {
     "rankings": {
       "sha256_lf": "30ed4608532d2baa0520ea605b53503fd55cd6a54bab0a9390f3d13efd2c382b",
@@ -43,7 +43,7 @@ Valid until: 2026-11-24T16:55:25.000Z
     "reason": "unchanged_values"
   },
   "completion": {
-    "status": "pending",
+    "status": "complete",
     "run_started_at": "2026-11-24T15:59:48Z",
     "completed_at": "2026-11-24T16:00:13Z",
     "rankings": "passed",
@@ -53,13 +53,32 @@ Valid until: 2026-11-24T16:55:25.000Z
   "source_commit": "e358a96cc2478b4f27389f14134891f211fbb025",
   "model_version": "b9c0069039e62b1079556e2fc4decd2a4d12b82c3afde5ade29b1f6000ed6d1d",
   "season_week": 13,
-  "deployment": null,
-  "revalidated_at": null,
-  "exhibits_verified_at": null,
+  "deployment": {
+    "method": "independent_source_probe",
+    "url": "https://www.bbmisports.com/ncaaf-exhibits-source.json",
+    "verified_at": "2026-11-24T16:25:30.283Z",
+    "rankings_sha256_lf": "30ed4608532d2baa0520ea605b53503fd55cd6a54bab0a9390f3d13efd2c382b",
+    "season_sim_sha256_lf": "f6326e717d01afa4e71610ddb9149fafbb4832083883df5d8642b0bbe3d1de28",
+    "identities_sha256_lf": "bca7730e98d139cf0f4acf1f77f14c4684daab1171372daf9380cf1554b1675e"
+  },
+  "revalidated_at": "2026-11-24T16:25:34.188Z",
+  "exhibits_verified_at": "2026-11-24T16:25:33.341Z",
   "html_url": "https://www.bbmisports.com/ncaaf-exhibits?publication=ncaaf-v1-d42f63011dc2816ec7ed01e02ac0bb595f11e09f47a01ba222e6d9e1f4a441d5&week=2026-11-24",
   "json_url": "https://www.bbmisports.com/ncaaf-exhibits.json?publication=ncaaf-v1-d42f63011dc2816ec7ed01e02ac0bb595f11e09f47a01ba222e6d9e1f4a441d5&week=2026-11-24",
-  "exhibit_dataset": null
+  "exhibit_dataset": {
+    "path": "exhibits/2026-11-24/ncaaf-v1-d42f63011dc2816ec7ed01e02ac0bb595f11e09f47a01ba222e6d9e1f4a441d5.json",
+    "sha256": "6ac6d1b7a7fda0afe5cb8e7b91a45386226a9b2685bc64234d1bb41c28287746",
+    "bytes": 7197,
+    "git_blob_sha": "e47b18218f9b3c847c9ea916cc2dd9e3a5de0cf5",
+    "api_url": "https://api.github.com/repos/andrewbrantner-wq/bbmi-publication-receipts/contents/exhibits/2026-11-24/ncaaf-v1-d42f63011dc2816ec7ed01e02ac0bb595f11e09f47a01ba222e6d9e1f4a441d5.json",
+    "html_url": "https://github.com/andrewbrantner-wq/bbmi-publication-receipts/blob/main/exhibits/2026-11-24/ncaaf-v1-d42f63011dc2816ec7ed01e02ac0bb595f11e09f47a01ba222e6d9e1f4a441d5.json",
+    "raw_url": "https://raw.githubusercontent.com/andrewbrantner-wq/bbmi-publication-receipts/main/exhibits/2026-11-24/ncaaf-v1-d42f63011dc2816ec7ed01e02ac0bb595f11e09f47a01ba222e6d9e1f4a441d5.json"
+  }
 }
 ```
+
+[Read the verified HTML feed](https://www.bbmisports.com/ncaaf-exhibits?publication=ncaaf-v1-d42f63011dc2816ec7ed01e02ac0bb595f11e09f47a01ba222e6d9e1f4a441d5&week=2026-11-24)
+
+[Certified exhibit dataset](https://github.com/andrewbrantner-wq/bbmi-publication-receipts/blob/main/exhibits/2026-11-24/ncaaf-v1-d42f63011dc2816ec7ed01e02ac0bb595f11e09f47a01ba222e6d9e1f4a441d5.json) (SHA-256 6ac6d1b7a7fda0afe5cb8e7b91a45386226a9b2685bc64234d1bb41c28287746)
 
 Always retrieve latest.json and check its status, week, ID and expiry. This README alone is not a freshness guarantee.
